@@ -7,7 +7,7 @@ class Customer:
         self.__phone = phone
         self.__member_status = member_status
     
-    # Accessor methods only
+   
     def get_customerid(self):
         return self.__customerid
     
@@ -34,7 +34,7 @@ class Transaction:
         self.__cost = cost
         self.__customerid = customerid
     
-    # Accessor methods only
+   
     def get_date(self):
         return self.__date
     
