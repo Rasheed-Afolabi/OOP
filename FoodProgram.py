@@ -13,7 +13,6 @@ dict = {'trans1':['2/15/2023','The Lone Patty',17,569],
 
 order_total = 0
 
-# Randomly select customer (50/50 chance)
 customer_id = random.choice([570, 569])
 
 # Create customer instance based on random selection
