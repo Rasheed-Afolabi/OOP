@@ -61,7 +61,7 @@ while True:
         print(f"Total Cost after discount: ${total_after_discount:.2f}")
     
     # Press Enter for another customer
-    input("\nPress Enter for another reciept: ")
+    input("\nEnter for another reciept: ")
     
     # Switch to the other customer
     customer_id = 569 if customer_id == 570 else 570
